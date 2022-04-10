@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- Sripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/95cab8d251.js" crossorigin="anonymous"></script>
+  <!-- favicon -->
+  <link rel="icon" href="images/gbu-logo.png">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/95cab8d251.js" crossorigin="anonymous"></script>
+</head>
+
+<div id="nav-placeholder"> </div>
+
+<body>
+  <div class="introduction">
+    <h2 style="font-size: 2.5vw;">Techno Cultural Club</h2>
+    <hr>
+    <p>Techno Cultural Club is a technology based club in school of information and technology that provides GBU
+      students opportunities across all domains to engage with companies by participating in hackathons, quizzes,
+      competitions,etc. It helps
+      students to learn new skills, showcase their talent, gain CV points and eventually get recognized, rewarded and
+      hired. This time Techno Cultural Club brings Research by Learning Hackathon.</p>
+  </div>
+  <div class="container-fluid faculty">
+    <h1 style="color: #fff;">Coordinators</h1>
+    <div class="row faculty-row">
+      <div class="col-lg-6 faculty-col">
+        <div class="card">
+          <img src="images/navaid-sir.jpg" class="card-img-top" alt="faculty">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Navaid Z. Rizvi</h5>
+            <p class="card-text">Placements Head</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 faculty-col">
+        <div class="card">
+          <img src="images/vimlesh-sir.jpg" class="card-img-top" alt="faculty">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Vimlesh Kumar Ray</h5>
+            <p class="card-text">Placements Head.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#foot-placeholder").replaceWith(data);
+    });
+  </script>
+  <script src="app.js"></script>
+</body>
+
+<div id="foot-placeholder"> </div>
+
+</html>

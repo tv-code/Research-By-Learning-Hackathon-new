@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+  <link rel="stylesheet" href="style/styles.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- Sripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/95cab8d251.js" crossorigin="anonymous"></script>
+  <!-- favicon -->
+  <link rel="icon" href="images/gbu-logo.png">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/95cab8d251.js" crossorigin="anonymous"></script>
+
+</head>
+
+<div id="nav-placeholder"> </div>
+
+<body>
+  <div class="container-fluid contact">
+    <h1>Contact us</h1>
+    <div class="row contact-row">
+
+      <div class="col-lg-4 col-mg-6 contact-col">
+        <div class="card  contact-card">
+
+          <div class="card-body contact-card">
+            <h5>Anushka Srivastava</h5>
+            <h6 class=" text-muted">(General Secretary)</h6>
+            <p class="card-text">+91-8318911268</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-mg-6 contact-col">
+        <div class="card contact-card">
+          <div class="card-body contact-card">
+            <h5>Nikhil Mishra</h5>
+            <h6 class=" text-muted">(Secretary)</h6>
+            <p class="card-text">+91-7011209863</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-mg-6 contact-col">
+        <div class="card contact-card">
+
+          <div class="card-body contact-card">
+            <h5>Shivi Sinha</h5>
+            <h6 class=" text-muted">(Secretary)</h6>
+            <p class="card-text">+91-9560908816 </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-mg-6 contact-col ">
+        <div class="card contact-card">
+          <div class="card-body contact-card">
+            <h5>Shubham Raj Singh</h5>
+            <h6 class=" text-muted">(Technical Head)</h6>
+            <p class="card-text">+91-7983895945 </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-mg-6 contact-col">
+        <div class="card contact-card">
+
+          <div class="card-body contact-card">
+            <h5>Pankaj Kumar</h5>
+            <h6 class="text-muted">(Technical Head)</h6>
+            <p class="card-text">+91-6396546214</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-mg-6 contact-col">
+        <div class="card contact-card">
+          <div class="card-body contact-card ">
+            <h5>Aditya Dhanraj Gupta</h5>
+            <h6 class="text-muted">(Technical Head)</h6>
+            <p class="card-text">+91-868002934</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#foot-placeholder").replaceWith(data);
+    });
+  </script>
+  <script src="app.js"></script>
+</body>
+
+<div id="foot-placeholder"> </div>
+
+</html>

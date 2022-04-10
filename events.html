@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event</title>
+  <link rel="stylesheet" href="style/styles.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- Sripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/95cab8d251.js" crossorigin="anonymous"></script>
+  <!-- favicon -->
+  <link rel="icon" href="images/gbu-logo.png">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/95cab8d251.js" crossorigin="anonymous"></script>
+
+</head>
+
+<div id="nav-placeholder"> </div>
+
+<body>
+  <div class="introduction">
+    <img src="" alt="">
+    <h2 style="font-size: 2.5vw;">All you need to know about Research with learning Hackathon</h2>
+    <hr>
+    <p> Conducting research is an important part of the college experience, especially as an undergraduate to give a
+      push to the career by building transferable skills and enhancing critical thinking, analytical skills and resumes
+      through hands-on
+      learning experience. Techno Cultural Club presents a 2 months long team based event, Research By Learning
+      Hackathon for the GBU students. Starting from 17th Feb to 17th April, 2022 in School of Information and
+      Communication Technology (SOICT).
+      Participating in this event not only leverage your chances for cracking Good Placements in your Final Year but can
+      lead you to win exciting prizes.</p>
+  </div>
+  <!-- Rules -->
+  <div class="rules">
+    <h2 class="rules-heading"><i class="fa-solid fa-calendar"></i> 17 February 22 - 17 April 22</h2>
+    <ol class="rules-list" type="1">
+      <em>Rules:</em>
+      <li>Registration Fees Rs 50/- per team.</li>
+      <li>Team Size : 1-3 Members (max : 3).</li>
+      <li>No intervening Certificates.</li>
+      <li>Attendance will be given to those who will Register and Submit their Projects on time.</li>
+    </ol>
+  </div>
+  <!-- Rewards -->
+  <div class="rewards">
+    <i class="fa-solid fa-trophy fa-8x trophy"></i>
+    <ul class="rewards-list">
+      <em>Rewards and Prizes</em>
+      <li>Achievement Certificates & Cash Prizes for student securing Top Positions in Hackathon.</li>
+      <li>Excellence Certificates and Consolation Prizes for Top position in Hackathon other than winners.</li>
+      <li>Completion Certificates for all the attendees will complete this Hackathon and submit their work. </li>
+      <li>Virtual Badges of different colors will be given to the good Performers on a weekly / task basis.</li>
+      <li>You will get a chance to be a part of Awareness Sessions, organized by National Intellectual Property
+        Awareness Mission (NIPAM), organization of Government of India for which you will be getting Certificates by the
+        Government of India.</li>
+      <li>Ranking will be given to all on a task basis.</li>
+      <li>Winners of each level and different task completion will get Appreciation Certificates & rewards after
+        completion of their work & this hackathon.</li>
+    </ul>
+  </div>
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#foot-placeholder").replaceWith(data);
+    });
+  </script>
+  <script src="app.js"></script>
+</body>
+
+<div id="foot-placeholder"> </div>
+
+</html>
